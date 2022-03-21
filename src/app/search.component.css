@@ -1,0 +1,17 @@
+.input-group{
+    margin-top: 10px;
+}
+.input-group input{
+    border-right: none;
+
+}
+.input-group .btn{
+border-radius: 0px;
+border-left: 0px;
+border-color: #ced4da;
+
+}
+.lead{
+    margin-left:220px;
+    color: rgba(255, 81, 0, 0.904);
+}

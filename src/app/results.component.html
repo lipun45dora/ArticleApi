@@ -1,0 +1,45 @@
+<div class="results">
+    <p>{{results?.length}} results</p>
+    <div class="result" *ngFor="let res of results">
+        <a [href]="res?.web_url" class="title" target="_blank" >
+        <h4>
+            <em class="fa fa-check-circle" *ngIf="res?.isSafe"></em>
+            {{res?.tittle}}
+        </h4>
+    </a>
+    <a [href]="res?.web_url" class="url" target="_blank" color="#f1f1f1">{{res?.web_url}} </a>
+    <p>{{res?.abstract}}
+    </p>
+    </div>
+<!-- </div>
+<div class="results">
+    
+    <div class="result">
+        <a href="#" class="title" target="_blank">
+        <h4>
+            <em class="fa fa-check-circle"></em>
+            Title Example
+        </h4>
+    </a>
+    <a href="#" class="url" target="_blank">https://google.com</a>
+    <p>Welcome to google juhhngr jfewjnmf fikr kirk rknfm rknf  mngnmr krkkrkkr
+         kkrk fkkr rkrkr rkkr  rknr kr rkkr kr rk epewrnm we ofnon
+    </p>
+    </div>
+</div>
+<div class="results">
+   
+    <div class="result">
+        <a href="#" class="title" target="_blank">
+        <h4>
+            <em class="fa fa-check-circle"></em>
+            Title Example
+        </h4>
+    </a>
+    <a href="#" class="url" target="_blank">https://google.com</a>
+    <p>Welcome to google juhhngr jfewjnmf fikr kirk rknfm rknf  mngnmr krkkrkkr
+         kkrk fkkr rkrkr rkkr  rknr kr rkkr kr rk epewrnm we ofnon
+    </p>
+    </div>
+</div>
+ -->
